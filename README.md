@@ -12,7 +12,7 @@ A little command-line app to download historical data in CSV format from,
 ### Setup
 
 ```
-git clone git@github.com:sriharshams/bigdatafederation.git
+git clone git@github.com:sriharshams/commodity-price-analysis.git
 cd commodity-price-analysis
 npm install
 ```
