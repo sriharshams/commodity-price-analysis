@@ -1,6 +1,5 @@
-# Big Data Federation, Inc.
 
-## Q 1
+
 ### Investing Historical data extractor
 A little command-line app to download historical data in CSV format from,
 
@@ -58,7 +57,7 @@ Download historical data from [investing.com](http://www.investing.com/). By def
 
 The program supports commodities from US for Gold and Silver.
 
-### Run Q1 to get the data from investing.com
+### Run to get the data from investing.com
 #### get gold commodity data
 ```
 node main.js get -i 8830
@@ -77,12 +76,11 @@ node main.js get -i 8830 -s 03/01/2008 -e 03/01/2018 -v -f historical-gold.csv
 node main.js get -i 8836 -s 03/01/2008 -e 03/01/2018 -v -f historical-silver.csv
 ```
 
-## Q2
+
 ### Run following command to find mean, variance of gold / silver from saved file historical-gold.csv / historical-silver.csv
 ```
 python getCommodityPrice.py 2017-05-01 2017-05-03 gold
 ```
-## Q3
 ### Install
 
 This project requires **Python 2.7**(if you complete this project in Python 3.x, you will have to update the code in various places including all relevant print statements) and the following Python libraries installed:
